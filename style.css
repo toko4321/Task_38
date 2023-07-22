@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.btn1{
+    color: white;
+    background-color:#5429FF;
+}
+.p1{
+    color: #667085;
+}
+a{
+    text-decoration: none;
+}
+.div1{
+    background-repeat: no-repeat;
+    
+}
+.p3{
+    font-size: 21px;
+}
+
+
+@media screen and (max-width: 768px){
+    .div1, .img2{
+        display: none;
+    }
+    .div2{
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        margin-top: 85px;
+    }
+}
